@@ -122,9 +122,9 @@ Page(Object.assign({}, Zan.TopTips, {
               console.log('用户点击确定')
               // todo 记录数据
               that.recordData(that.data.dish);
-              wx.navigateTo({
-                url: '../map/map?dish=' + that.data.dish + '&keyword=' + that.data.keyword
-              })
+              // wx.navigateTo({
+              //   url: '../map/map?dish=' + that.data.dish + '&keyword=' + that.data.keyword
+              // })
             } else if (res.cancel) {
               console.log('用户点击取消')
             }
