@@ -91,9 +91,9 @@ Page(Object.assign({}, Zan.TopTips, {
     })
   },
   toAbout: function () {
-    wx.navigateTo({
-      url: '../about/about'
-    })
+    // wx.navigateTo({
+    //   url: '../about/about'
+    // })
   },
   bindClickTap: function () {
     if (!this.data.hasUserInfo){
